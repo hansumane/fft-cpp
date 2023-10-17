@@ -28,7 +28,7 @@ vector<complex<double>> fourier::dft(const vector<complex<double>> &x)
     return X;
 }
 
-std::vector<std::complex<double>> fourier::idft(const std::vector<std::complex<double>> &X)
+vector<complex<double>> fourier::idft(const vector<complex<double>> &X)
 {
     double knN;
     size_t k, n, N = X.size();
