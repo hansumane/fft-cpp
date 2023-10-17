@@ -1,0 +1,3 @@
+/.venv
+/fft-and-ssa/*.o
+/fft-and-ssa/out-main
